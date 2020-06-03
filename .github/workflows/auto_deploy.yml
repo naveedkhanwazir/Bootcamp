@@ -31,4 +31,4 @@ jobs:
     - name: Installing Surge
       run: npm install --global surge
     - name: Depoling using surge
-          run: surge ./ bootcamp2020_piaic_project.surge.sh --token $ {{ secrets.S_token }}
+          run: surge ./ bootcamp2020_piaic_project.surge.sh --token  fcf83b0b3a1f1264a88ed6974babb052
